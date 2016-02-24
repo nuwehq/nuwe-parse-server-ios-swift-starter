@@ -11,6 +11,7 @@ import UIKit
 import Parse
 
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -22,9 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.enableLocalDatastore()
         
         let parseConfiguration = ParseClientConfiguration(block: { (ParseMutableClientConfiguration) -> Void in
-            ParseMutableClientConfiguration.applicationId = "e7fb85bff08b3880c694a71d7e05ce50"
-            ParseMutableClientConfiguration.clientKey = "cf7e1f9fa85c8bf1f685f87aff6746a3"
-            ParseMutableClientConfiguration.server = "http://seahorse.nuwe-parse-server.c66.me:49154/parse/"
+            ParseMutableClientConfiguration.applicationId = kParseAppId
+            ParseMutableClientConfiguration.clientKey = kParseAppSecret
+            ParseMutableClientConfiguration.server = kParseServerURL
             
         })
         

@@ -17,6 +17,8 @@
 		0CC2587B1C7DFE2000305E3F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC258791C7DFE2000305E3F /* Parse.framework */; };
 		0CC258801C7E2ABE00305E3F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC2587F1C7E2ABE00305E3F /* MainViewController.swift */; };
 		0CC258821C7E47C000305E3F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC258811C7E47C000305E3F /* LoginViewController.swift */; };
+		0CC258841C7E6F1700305E3F /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC258831C7E6F1700305E3F /* Secrets.swift */; };
+		0CC258861C7E6FFE00305E3F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0CC258851C7E6FFE00305E3F /* .gitignore */; };
 		208C0A796FCC33B534EC7E04 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72461BCF80D605C2562D766 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		0CC258791C7DFE2000305E3F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Pods/../build/Debug-iphoneos/Parse.framework"; sourceTree = "<group>"; };
 		0CC2587F1C7E2ABE00305E3F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0CC258811C7E47C000305E3F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0CC258831C7E6F1700305E3F /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		0CC258851C7E6FFE00305E3F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		193676DB64DA7E5AAD14FAED /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7FF26046BDE36B0AD2129498 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A72461BCF80D605C2562D766 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +59,7 @@
 		0CC258581C7DFB9200305E3F = {
 			isa = PBXGroup;
 			children = (
+				0CC258851C7E6FFE00305E3F /* .gitignore */,
 				0CC258761C7DFBA600305E3F /* Podfile */,
 				0CC258631C7DFB9300305E3F /* nuwe-parse-server */,
 				0CC258621C7DFB9300305E3F /* Products */,
@@ -75,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				0CC258641C7DFB9300305E3F /* AppDelegate.swift */,
+				0CC258831C7E6F1700305E3F /* Secrets.swift */,
 				0CC258661C7DFB9300305E3F /* ViewController.swift */,
 				0CC258681C7DFB9300305E3F /* Main.storyboard */,
 				0CC258811C7E47C000305E3F /* LoginViewController.swift */,
@@ -166,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC258861C7E6FFE00305E3F /* .gitignore in Resources */,
 				0CC2586F1C7DFB9300305E3F /* LaunchScreen.storyboard in Resources */,
 				0CC2586C1C7DFB9300305E3F /* Assets.xcassets in Resources */,
 				0CC258771C7DFBA600305E3F /* Podfile in Resources */,
@@ -229,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CC258821C7E47C000305E3F /* LoginViewController.swift in Sources */,
+				0CC258841C7E6F1700305E3F /* Secrets.swift in Sources */,
 				0CC258801C7E2ABE00305E3F /* MainViewController.swift in Sources */,
 				0CC258671C7DFB9300305E3F /* ViewController.swift in Sources */,
 				0CC258651C7DFB9300305E3F /* AppDelegate.swift in Sources */,
