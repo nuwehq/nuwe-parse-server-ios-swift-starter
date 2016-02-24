@@ -36,4 +36,4 @@ playground.xcworkspace
 # Packages/
 .build/
 
-Secrets.swift
+nuwe-parse-server/Secrets.swift
